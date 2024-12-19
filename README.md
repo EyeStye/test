@@ -1,6 +1,6 @@
 # test
 
-Welcome to my first project😊. This will keep receiving updates. Currently it is **version 0.5**.<br/>
+Welcome to my first project😊. This will keep receiving updates. Currently it is **version 1.0**.<br/>
 [View it by clicking me](https://eyestye.github.io/test)
 
 ## Version 0.0
@@ -13,3 +13,9 @@ Welcome to my first project😊. This will keep receiving updates. Currently it 
 - Now the calculator calculates from today's date (UTC+0)
 - It displays singular and plural words accordingly (like using year for years when it is 1, etc.)
 - See the message when you enter today's date as date of birth!
+
+## Version 1.0
+
+- New, revamped UI
+- Enter date in **calendar** format in page itself, rather than typing in prompt
+- See the result on page instead of popup
