@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: Inter;
+}
+
+body {
+  background-color: #d2d2d2;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.date-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.calc {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #21dc30;
+  color: #000000;
+}
+
+.date {
+  width: 120px;
+  height: 25px;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #8f8f8f;
+  display: inline-block;
+}
+
+.footer {
+  font-weight: normal;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
