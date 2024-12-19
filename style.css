@@ -26,13 +26,14 @@ body {
   border-radius: 10px;
   background-color: #21dc30;
   color: #000000;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .date {
-  width: 120px;
-  height: 25px;
+  width: 170px;
+  height: 40px;
   border-radius: 10px;
+  font-size: 18px;
 }
 
 .result {
