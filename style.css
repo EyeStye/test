@@ -68,12 +68,12 @@ h1 {
 
 .result {
   font-weight: bold;
-  font-size: 150%;
+  font-size: 20px;
   color: #fff;
   display: inline-block;
   border-radius: 10px;
   padding: 5px;
-  margin-top: 20px;
+  margin: 10px;
 }
 
 .credits {
