@@ -2,6 +2,9 @@
 
 * {
   font-family: Inter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,6 +14,24 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#ffffff, #3c3c3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statement {
+  margin-left: 5px;
+  font-size: 20px;
 }
 
 .date-box {
@@ -23,29 +44,60 @@ body {
 .calc {
   width: 140px;
   height: 60px;
+  border: 0;
   border-radius: 10px;
   background-color: #21dc30;
   color: #000000;
   font-size: 30px;
 }
 
+.calc:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #21dc30;
+}
+
 .date {
   width: 170px;
   height: 40px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 22px;
+  text-align: center;
 }
 
 .result {
   font-weight: bold;
   font-size: 150%;
-  background-color: #8f8f8f;
   display: inline-block;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.credits {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 100px;
+  padding-left: 5px;
+  padding-top: 10px;
+  display: flex;
+  gap: 20px;
+  background-color: #000000;
+  color: #dbdbdb;
+  width: 100%;
 }
 
 .footer {
   font-weight: normal;
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 10px;
+  color: #b0b0b0;
+}
+
+.logo {
+  height: 40px;
+  /* filter: grayscale(0); */
+}
+.fst {
+  height: 40px;
 }

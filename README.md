@@ -19,3 +19,8 @@ Welcome to my first project😊. This will keep receiving updates. Currently it 
 - New, revamped UI
 - Enter date in **calendar** format in page itself, rather than typing in prompt
 - See the result on page instead of popup
+
+## Version 1.1
+
+- Some more changes to visual appearance
+- Bigger font, buttons
