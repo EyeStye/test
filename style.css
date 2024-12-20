@@ -10,6 +10,7 @@
 body {
   background-color: #000;
   position: relative;
+  min-height: 100vh;
 }
 
 .header {
@@ -83,20 +84,27 @@ h1 {
 .credits {
   position: absolute;
   top: 495px;
-  padding-bottom: 100px;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 80px;
   padding-left: 5px;
-  padding-top: 15px;
+  padding-top: 20px;
   display: flex;
   gap: 20px;
-  background-color: #242424;
+  background-color: #0e0e0e;
   color: #b0b0b0;
   width: 100%;
+}
+
+.credit-text {
+  color: #fff;
+  width: fit-content;
 }
 
 .footer {
   font-weight: normal;
   position: absolute;
-  top: 620px;
+  top: 615px;
   right: 10px;
   color: #b0b0b0;
 }
@@ -108,4 +116,10 @@ h1 {
 .logo:hover,
 .logo:active {
   filter: grayscale(0);
+}
+
+.logo-html,
+.logo-css,
+.logo-js {
+  width: fit-content;
 }
