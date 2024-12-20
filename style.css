@@ -11,6 +11,8 @@ body {
   background-color: #000;
   position: relative;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -82,8 +84,8 @@ h1 {
 }
 
 .credits {
-  position: absolute;
-  top: 495px;
+  /* position: absolute;
+  top: 495px; */
   flex-direction: row;
   align-items: center;
   padding-bottom: 80px;
@@ -94,6 +96,8 @@ h1 {
   background-color: #0e0e0e;
   color: #b0b0b0;
   width: 100%;
+  flex: 0 0 100px;
+  margin-top: auto;
 }
 
 .credit-text {
