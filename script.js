@@ -6,6 +6,9 @@ document.querySelector(".calc").addEventListener("click", function () {
   const curDate = [today.slice(8, 10), today.slice(5, 7), today.slice(0, 4)];
   const age = function (dob, cd) {
     const ageInDays = [];
+    if (dob[0] === "" || dob[1] === "" || dob[2] === "") {
+      return `Enter date before clicking Submit`;
+    }
     for (let i = 0; i < 3; i++) {
       ageInDays.push(Number(cd[i]) - Number(dob[i]));
     }
