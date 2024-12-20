@@ -1,6 +1,6 @@
 # test
 
-Welcome to my first project😊. This will keep receiving updates. Currently it is **version 1.0**.<br/>
+Welcome to my first project😊. This will keep receiving updates. Currently it is **version 1.1**.<br/>
 [View it by clicking me](https://eyestye.github.io/test)
 
 ## Version 0.0
